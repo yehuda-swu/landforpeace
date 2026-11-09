@@ -1,19 +1,33 @@
 # The Land for Peace Question
 
-An interactive classroom graphic for StandWithUs UK Explore, aimed at ages 16 to 17.
+A classroom resource for StandWithUs UK Explore, designed for students aged 16 to 17.
 
-## How to use
+## Quick start
 
-Open `index.html` in a browser. No installation or internet access is needed to run the graphic. The source links require an internet connection. To publish with GitHub Pages, upload the contents of this folder to a repository and configure Pages to serve from the main branch and root folder.
+Open `index.html` in any modern browser. The graphic, logo files and interactions work without the internet. The historical source links need internet access.
 
-## Five minute activity
+## How to run the activity
 
-1. **Predict.** Ask students whether territorial concessions have only been pursued by governments on the political left.
-2. **Explore.** Filter by political tradition. Click one example of a completed withdrawal and one of negotiations that ended without agreement.
-3. **Compare.** Switch circle size to Equal size. Ask why a percentage of Hebron cannot be compared directly with a percentage of Sinai.
-4. **Discuss.** What can and cannot be concluded about political willingness, territorial concessions and the reasons talks failed?
+1. **Predict (30 seconds).** Ask students whether governments on the political left or right were more likely to explore territorial concessions.
+2. **Select (30 seconds).** Choose an event on the timeline. Read the proposal or decision aloud.
+3. **Discuss (60 seconds).** Give pairs time to answer the question shown on screen. Keep the outcome concealed.
+4. **Reveal (30 seconds).** Press **Reveal outcome** to show the result. Ask what surprised them.
+5. **Compare (2 minutes).** Choose an example involving a completed agreement and one involving negotiations that did not lead to a treaty.
+6. **Reflect (1 minute).** Choose **Equal circles** and discuss how visual scale can influence an argument.
+
+## Controls
+
+* **Reveal outcome** exposes the result for the selected event. **Hide outcome and discuss again** conceals it.
+* Choosing a different event automatically conceals that event's outcome, even if a previous event was revealed.
+* **Previous** and **Next**, or the left and right arrow keys, switch events.
+* **R** reveals or hides the outcome when the timeline is active.
+* Use **Projector view** to enlarge the main content for the classroom.
+* Government filters show only the selected political tradition. They do not affect historical details.
+* The circle size menu switches between editorial emphasis and an equal scale. Neither option is a measurement of geographic area.
 
 ## Essential historical notes
+
+
 
 * This graphic is a selected sample, not a count of every peace initiative. Oslo appears several times because it developed in stages. The red and blue totals therefore do not independently prove a general statistical claim.
 * The 1993 Oslo framework and 1994 Gaza and Jericho implementation are different events. Hebron redeployment was in 1997.
@@ -30,14 +44,18 @@ Open `index.html` in a browser. No installation or internet access is needed to 
 
 Israeli governments across the political spectrum have pursued territorial compromise and peace diplomacy. Some produced agreements or withdrawals, while others did not. Their scope, conditions and outcomes require careful comparison.
 
-## Suggested GitHub commit message
+## GitHub Pages deployment
 
-`Add interactive Land for Peace timeline with verified history and teacher guide`
+Upload `index.html` to the root of your GitHub repository. The site uses no outside libraries. The separate `assets` folder contains reusable versions of the supplied logos but is not required for the page to display, as the images are also embedded in the HTML.
 
-## Example Git commands
+### Suggested commit message
+
+`Redesign Land for Peace timeline with classroom outcome reveal and Explore branding`
+
+### Git commands
 
 ```bash
-git add index.html TEACHER_GUIDE.md SOURCES.md
-git commit -m "Add interactive Land for Peace timeline with verified history and teacher guide"
+git add index.html TEACHER_GUIDE.md SOURCES.md assets/
+git commit -m "Redesign Land for Peace timeline with classroom outcome reveal and Explore branding"
 git push origin main
 ```
